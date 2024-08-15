@@ -1,0 +1,6 @@
+﻿services:
+  verivoxtask.api:
+    image: verivoxtask.api
+    build:
+      context: .
+      dockerfile: VerivoxTask.API/Dockerfile
